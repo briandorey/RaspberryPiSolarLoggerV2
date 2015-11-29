@@ -1,0 +1,18 @@
+( Made using CamBam - http://www.cambam.co.uk )
+( top 11/29/2015 3:48:32 PM )
+( T13 : 3.0 )
+G21 G90 G91.1 G64 G40
+G0 Z3.0
+( T13 : 3.0 )
+T13 M6
+( 3mm Drill )
+G17
+M3 S1000
+G0 X7.7618 Y62.0357
+G98
+G81 X7.7618 Y62.0357 Z-6.0 R3.0 F50.0
+G81 X222.4068 Y62.0354 Z-6.0
+G80
+G0 Z3.0
+M5
+M30
