@@ -12,7 +12,7 @@ import serial
 import time
 
 # url for processing page
-url = 'http://87.117.217.133/processcharger.aspx?'
+url = 'http://10.0.0.25/processcharger.aspx?'
 #Open named port and set baud rate to 115200
 ser = serial.Serial ("/dev/ttyACM0", 115200, timeout=2)    
 ser.open()
