@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#"  %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+ <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, minimal-ui">
+    <!--[if lt IE 7]>
+    <script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+    <![endif]-->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,400italic,600italic"
+        rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="/StyleSheet.css" />
+    <script src="js/jquery.js"></script>
+   <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+</head>
+
+<body>
+    <form id="form1" runat="server">
+       <div id="navbar">
+            <a href="/Default.aspx">Home</a> | 
+            <a href="/archive/reportday.aspx">Day Report</a> | 
+            <a href="/archive/reportweek.aspx">7 Day Report</a> | 
+            <a href="/archive/reportyear.aspx">Year Report</a> | 
+            <a href="/archive/reportthermalyear.aspx">Thermal Max Year</a> | 
+            <a href="/archive/report12vpvampsyear.aspx">12V Max Year</a>
+        </div>
+    <div id="content">
+        
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       </div>
+        <div id="sidebar">
+        
+            <div id="sidebarcontent">
+            <asp:ContentPlaceHolder id="ContentSide" runat="server">
+        
+        </asp:ContentPlaceHolder></div>
+            </div>
+    </form>
+</body>
+</html>

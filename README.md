@@ -6,3 +6,5 @@ Full details and photos of this project are on my blog at http://www.briandorey.
 
 PCB files are in Diptrace format
 
+The **homereportingwebsite** folder contains the online reporting website and sql database generating script for [home.briandorey.com](http://home.briandorey.com)
+
